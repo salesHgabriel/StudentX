@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Companyx.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<AssemblyName>Companyx.$(MSBuildProjectName)</AssemblyName>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Companyx.Studentx.Application\Companyx.Studentx.Application.csproj" />
+    <ProjectReference Include="..\Companyx.Studentx.Domain\Companyx.Studentx.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

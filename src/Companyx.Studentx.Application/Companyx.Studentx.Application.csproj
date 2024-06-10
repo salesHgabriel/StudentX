@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Companyx.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<AssemblyName>Companyx.$(MSBuildProjectName)</AssemblyName>    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Companyx.Studentx.Domain\Companyx.Studentx.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="ShortCleanLinqExtensions" Version="1.0.8" />
+  </ItemGroup>
+
+</Project>
