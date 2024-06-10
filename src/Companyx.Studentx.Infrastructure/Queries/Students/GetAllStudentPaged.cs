@@ -16,7 +16,7 @@ namespace Companyx.Companyx.Studentx.Infrastructure.Queries.Students
 
         public Task<PagedResponse<GetAllStudentResponse>> FindAsync(int page = 1, int limit = 15)
            => _db.Students
-                .Select(s => new GetAllStudentResponse(s.UserId, s.User.UserName!, s.User.Email!))
+                .Select(s => new GetAllStudentResponse(s.UserId, s.User.UserName!, s.User.Email!, s.AssocitedAtUTC))
                 .PaginateAsync(page, limit);
     }
 }
