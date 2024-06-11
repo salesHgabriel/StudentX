@@ -7,6 +7,6 @@ namespace Companyx.Companyx.Studentx.Domain.Courses
     {
         public static readonly Error NotFound = new(
         "Course.NotFound",
-        "The Cousrsr the specified identifier was not found");
+        "The Course the specified identifier was not found");
     }
 }

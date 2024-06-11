@@ -21,7 +21,7 @@ namespace Companyx.Companyx.Studentx.Core.Courses.DeleteCourses
 
             if (course is null)
             {
-                return Result.Failure<bool>(new Error("Course.NotFound", "The Course not found"));
+                return Result.Failure<bool>(CourseErros.NotFound);
             }
 
             course.Remove();
