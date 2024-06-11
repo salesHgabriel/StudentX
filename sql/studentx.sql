@@ -1,22 +1,4 @@
-curso
-    criar ✅   
-    editar ✅
-    deletar ✅
-    listar ✅
-avaliacao
-    criar ✅
-    editar ✅
-    deletar ✅
-    listar especifico ✅
-
-usuario
-    criar 
-    login
-    listar
-student
-    criar == associar como studente    
-    update usuario    
-    delete usuario e remove associacaoCREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
     migration_id character varying(150) NOT NULL,
     product_version character varying(32) NOT NULL,
     CONSTRAINT pk___ef_migrations_history PRIMARY KEY (migration_id)
