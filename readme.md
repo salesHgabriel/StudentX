@@ -37,6 +37,12 @@
 
 3 -  (opcional) - if you add fake data, you need first run application after uncoment lin  app.SeedFakeData() on file program.cse and run again;
 
+4 - after run poject open your browser with url https://localhost:7052/swagger/index.html or http://localhost:5068
+
+<img src="./docs/swagger_screen.png"  />
+
+
+
 ## Technologies implemented:
 
 - ASP.NET 8.0
