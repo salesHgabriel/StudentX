@@ -63,6 +63,7 @@
 - Domain Events
 - Domain Notification
 - Domain Validations
+- Rich Domain
 - CQRS (Imediate Consistency)
 - Unit of Work
 - Repository
