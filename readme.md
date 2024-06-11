@@ -67,3 +67,4 @@
 - CQRS (Imediate Consistency)
 - Unit of Work
 - Repository
+- Result Pattern
