@@ -153,11 +153,3 @@ INSERT INTO "__EFMigrationsHistory" (migration_id, product_version)
 VALUES ('20240610214246_InitialMigratil', '8.0.6');
 
 COMMIT;
-    listar    
-    
-adicionar authorize
-criar testes unitarios            
-criar testes de arquitetura
-
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlNDQxNjlkOC0zNWFjLTRiYTktYWE4Ni0wOTZhZDZjOWFmYjUiLCJlbWFpbCI6IkFkb2xwaF9SaXRjaGllOThAeWFob28uY29tIiwianRpIjoiZTI1NThjYTItOWU0Yy00ZjU3LWFmODktMzMzYzVlMDM3MmUzIiwibmJmIjoxNzE4MDUxMTQ5LCJpYXQiOjE3MTgwNTExNDksImV4cCI6MTcxODA1NDc0OSwiaXNzIjoiSWRlbnRpdHkiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdC8ifQ.qLn7yPW-AXKS0-LR5GvCKyZGCiooxHv2aj7q3UYYtYc
-
