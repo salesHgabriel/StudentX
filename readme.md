@@ -10,7 +10,7 @@
 
 2 - create file appsettings.development or put file appsettings
 
-``
+```json
 {
   "Logging": {
     "LogLevel": {
@@ -33,7 +33,7 @@
 
 }
 
-``
+```
 
 3 -  (opcional) - if you add fake data, you need first run application after uncoment lin  app.SeedFakeData() on file program.cse and run again;
 
