@@ -69,7 +69,7 @@ namespace Companyx.Studentx.API.Controllers.Courses
 
             if (result.IsFailure) return BadRequest(result.Error);
 
-            return Ok(result);
+            return Ok(result.Value);
         }
 
         [HttpDelete("{id}")]
@@ -81,7 +81,7 @@ namespace Companyx.Studentx.API.Controllers.Courses
 
             if (result.IsFailure) return BadRequest(result.Error);
 
-            return Ok(result);
+            return Ok(result.Value);
         }
     }
 }

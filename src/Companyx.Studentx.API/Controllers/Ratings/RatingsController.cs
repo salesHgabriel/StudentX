@@ -62,7 +62,7 @@ namespace Companyx.Studentx.API.Controllers.Ratings
 
             if (result.IsFailure) return BadRequest(result.Error);
 
-            return Ok(result);
+            return Ok(result.Value);
         }
 
         [HttpDelete("{id}")]
