@@ -1,5 +1,9 @@
 # Project studentx
 
+## About
+<p>Template project, sample to use your projects</p>
+
+
 # Prerequirements
 * .NET Core SDK 8.0
 * Postgresql
